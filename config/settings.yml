@@ -19,7 +19,7 @@ METADATA_SHOWN:
   - 'iso19139'
   - 'mods'
 
-PROXY_URL: 'http://ezproxy.library.nyu.edu:2048/login?url='
+PROXY_URL: 'http://ezproxy.library.nyu.edu:45206'
 RESTRICTED_URL: 'http://maps-restricted.nyusdr.net/'
 
 # (For external Download) timeout and open_timeout parameters for Faraday
