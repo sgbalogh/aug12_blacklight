@@ -20,6 +20,7 @@ METADATA_SHOWN:
   - 'mods'
 
 PROXY_URL: 'http://ezproxy.library.nyu.edu:2048/login?url='
+RESTRICTED_URL: 'http://maps-restricted.nyusdr.net/'
 
 # (For external Download) timeout and open_timeout parameters for Faraday
 TIMEOUT_DOWNLOAD: 16
