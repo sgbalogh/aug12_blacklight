@@ -12,6 +12,6 @@ class WmsController < ApplicationController
   def format_url
   if params['URL'] = 'http://ezproxy.library.nyu.edu:45206/geoserver/wms'
     params['URL'] = 'http://maps-restricted.nyusdr.net/geoserver/wms'
-    end
+  end
  end
 end
