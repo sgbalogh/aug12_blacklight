@@ -19,14 +19,16 @@ METADATA_SHOWN:
   - 'iso19139'
   - 'mods'
 
-PROXY_URL: 'http://ezproxy.library.nyu.edu:45206'
-RESTRICTED_URL: 'http://maps-restricted.nyusdr.net/'
+#PROXY_URL: 'http://ezproxy.library.nyu.edu:45206'
+PROXY_URL: 'http://ezproxy.library.nyu.edu:2048/login?url=http://maps-restricted.nyusdr.net'
+#PROXY_URL: 'http://pds.library.nyu.edu/ezproxy?institute=NYU&url='
+RESTRICTED_URL: 'http://maps-restricted.nyusdr.net/geoserver/wms'
 
 # (For external Download) timeout and open_timeout parameters for Faraday
 TIMEOUT_DOWNLOAD: 16
 
 # (For WMS inspection) timeout and open_timeout parameters for Faraday
-TIMEOUT_WMS: 4
+TIMEOUT_WMS: 15
 
 # Web services shown in tool panel
 WEBSERVICES_SHOWN:
