@@ -10,6 +10,8 @@ class WmsController < ApplicationController
   end
 
   def format_url
-    params['URL'] = params['URL'].prepend(/.+?(?=\/geoserver)/, Settings.RESTRICTED_URL) if params['URL'] =~ /#{Settings.PROXY_URL}.*/
-  end
+  if params['URL'] = 'http://ezproxy.library.nyu.edu:45206/geoserver/wms'
+    params['URL'] = 'http://maps-restricted.nyusdr.net/geoserver/wms'
+    end
+ end
 end
