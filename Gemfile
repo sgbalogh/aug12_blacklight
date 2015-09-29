@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'blacklight'
 gem 'geoblacklight'
 gem 'omniauth-nyulibraries', github: 'NYULibraries/omniauth-nyulibraries'
+gem 'figs'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'

@@ -90,6 +90,9 @@ GEM
     execjs (2.6.0)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
+    figs (2.0.3)
+      git (~> 1.2.6)
+      rake (~> 10.1)
     font-awesome-rails (4.1.0.0)
       railties (>= 3.2, < 5.0)
     geoblacklight (0.10.2)
@@ -102,6 +105,7 @@ GEM
       leaflet-rails (~> 0.7.3)
       rails_config (~> 0.4.2)
     geoblacklight-icons (0.2.1)
+    git (1.2.9.1)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     hashie (3.4.2)
@@ -227,6 +231,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   devise
   devise-guests (~> 0.3)
+  figs
   geoblacklight
   jbuilder (~> 2.0)
   jquery-rails
