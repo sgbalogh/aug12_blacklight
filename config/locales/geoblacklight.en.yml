@@ -1,11 +1,7 @@
 en:
   geoblacklight:
     home:
-<<<<<<< HEAD
-      headline: 'Find maps and data'
-=======
       headline: 'Find maps and data through NYU'
->>>>>>> styling
       search_heading: 'Get started here'
       category_heading: 'Browse by category'
       map_heading: 'Browse by location'
