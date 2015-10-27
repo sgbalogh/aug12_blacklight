@@ -49,5 +49,4 @@ end
 
 
 gem 'rsolr', '~> 1.0.6'
-gem 'devise'
-gem 'devise-guests', '~> 0.3'
+gem 'devise', '~> 3.4.1'
