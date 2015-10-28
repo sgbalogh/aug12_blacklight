@@ -1,0 +1,26 @@
+<div class="navbar-right">
+  <ul class="nav navbar-nav">
+    <%= render_nav_actions do |config, action|%>
+      <li><%= action %></li>
+    <% end %>
+  </ul>
+
+  <% if has_user_authentication_provider? %>
+    <ul class="nav navbar-nav">
+      <% if current_user %>
+      <li>
+        Logout link (Nothing)
+      </li>
+      <% unless current_user.to_s.blank? -%>
+      <li>
+        <%= link_to current_user %>
+      </li>
+      <% end %>
+      <% else %>
+      <li>
+        New (Nothing)
+      </li>
+      <% end %>
+      </ul>
+  <% end %>
+</div>
