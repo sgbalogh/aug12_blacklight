@@ -1,4 +1,4 @@
-Figs.load() # To load gmail ENV variables, for email testing 
+Figs.load() # To load gmail ENV variables, for email testing
 
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
