@@ -8,6 +8,8 @@ def new_session_path(scope)
   login_path
 end
 
+# The following, 'new_user_session_path' should be completely unused in the NYU
+# context. All known references to it have been scrubbed out of partials.
 def new_user_session_path(scope)
   login_path
 end
@@ -15,6 +17,21 @@ end
 def after_sign_in_path_for(resource)
   request.env['omniauth.origin'] || stored_location_for(resource) || root_path
 end
+
+# After signing out from the local application,
+# redirect to the logout path for the Login app
+def after_sign_out_path_for(resource_or_scope)
+  if logout_path.present?
+    logout_path
+  else
+    super(resource_or_scope)
+  end
+end
+
+def logout_path
+  "https://login.library.nyu.edu/logout"
+end
+private :logout_path
 
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
