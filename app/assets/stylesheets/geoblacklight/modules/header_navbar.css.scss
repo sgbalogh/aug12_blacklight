@@ -4,13 +4,17 @@
     background: transparent;
     padding: 13px 0 10px 15px;
     width: 236px;
-	height: 70px;
-    
+	   height: 70px;
+
     img {
       height: 50px;
       margin-right: 10px;
       vertical-align: middle;
     }
+  }
+  .navbar-right {
+    margin-top: 10px;
+
   }
 }
 
@@ -22,7 +26,8 @@
   padding-right: 0;
   text-decoration: none;
   text-transform: none;
-  
+
+
   &:hover,
   &:focus {
     border-bottom: 2px solid white;
