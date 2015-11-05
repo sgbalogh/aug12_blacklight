@@ -1,6 +1,7 @@
 class ApplicationController < ActionController::Base
   # Adds a few additional behaviors into the application controller
   include Blacklight::Controller
+  include Blacklight::Folders::ApplicationControllerBehavior
   layout 'blacklight'
 
 # Alias new_session_path as login_path for default devise config

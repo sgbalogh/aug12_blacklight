@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'blacklight'
 gem 'geoblacklight'
+gem 'blacklight_folders'
 gem 'omniauth-nyulibraries', github: 'NYULibraries/omniauth-nyulibraries'
 gem 'figs'
 
